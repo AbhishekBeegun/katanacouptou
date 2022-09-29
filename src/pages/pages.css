@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.TOP{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(33, 33, 33);
+}
+.TOP h1{
+    font-size: 9rem;
+    color: red;
+}
+.TOPPIC {
+    position: absolute;
+    width: 70vw;
+    height: 60vh;
+    background-image: url(/src/assets/katanacouptou.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    rotate: -20deg;
+}
+
+.MIDDLE{
+    width: auto;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+.MIDDLERIGHT{
+    background-color: gainsboro;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.MIDDLERIGHT h2 {
+    font-size: 4rem;
+    color: red;
+}
+.MIDDLERIGHT p{
+    font-size: 1.5rem;
+    padding: 10%;
+}
+.MIDDLELEFT{
+    height: 100%;
+    width: 100%;
+}
+.MIDDLELEFT video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.MIDDLESECTION{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+}
+.carousel {
+    overflow: hidden;
+    
+}
+.carou{
+    height: 100%;
+    width: 100%;
+}
+.inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+}
+.carousel-item{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    height: 100%;
+    padding-top: 3%;
+}
+.carousel .carousel-item:nth-child(1){
+    background-color: aqua;
+}
+.carousel .carousel-item:nth-child(2){
+    background-color: saddlebrown;
+}
+.carousel .carousel-item:nth-child(3){
+    background-color: violet;
+}
+.carousel-item img {
+    width: 40%;
+}
+.indicators{
+    display: flex;
+    justify-content: center;
+}
+.indicators button {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 20px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+    border-style: double;
+    border-color: rgb(197, 24, 24);
+    padding: 20px;   
+    border-width: thick;
+}
+.indicators button:hover{
+    background-color: black;
+}
+
+
+.CENTER{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.CenterLEFT{
+    background-image: url(/src/assets/covermetal.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 80%;
+    position: relative;
+    top:10%;
+    background-color: aqua;
+}
+.CenterLEFT:hover{
+    width: 80%;
+    transition: all ease 1s;
+    background-position:16rem;
+}
+.CenterRIGHT{
+    background-color: blueviolet;
+    background-image: url(/src/assets/katanametal.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top:10%;
+    width: 20%;
+    height: 80%;    
+}
+.CenterRIGHT:hover{
+    width: 80%;
+    transition: all ease 1s;
+    background-position: -16rem;
+}
+
+.END{
+    width: 100%;
+    height:90vh;
+    background-color: black;
+}
+.END h2{
+    color: white;
+    position: relative;
+    top:20%;
+}
+.SMILE{
+    width: 80%;
+    height: 50vh;
+    position: relative;
+    top:20%;
+    left:5%;
+    background-image: url(/src/assets/smilekata.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.spec{
+    width: 90%;
+    height: 10vh;
+    position: relative;
+    top:30%;
+    left: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 2.5rem;
+    color: white;
+}
